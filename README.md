@@ -5,4 +5,6 @@ This was an College Project which ended up landing me an A *"Just had to brang"*
 - All the passwords had to be encrypted.
 - All the passwords had to be stored inside an MySQL Database.
 
-The encryption method that was choosen for the master password was SHA-256 because it's an one-way encryption method and for the passwords the user stored on the database they were encrypted using the AES encryption method.
+The encryption method that was choosen for the master password was SHA-256 because it's an one-way encryption method and for the passwords the user stored on the database they were encrypted using the AES encryption method because this allows us to encrypt and decrypt the passwords. So we store the encrypted text so the user is the only one that will be able to decrypt the encrypted text.
+
+
